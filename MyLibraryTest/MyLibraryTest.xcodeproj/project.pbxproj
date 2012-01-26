@@ -17,6 +17,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		A7DFD46114D17BDA0016FA42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C91BD08414C0436F00727134 /* MyLibrary.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = C91BD03614C040F900727134;
+			remoteInfo = MyLibrary;
+		};
+		A7DFD46314D17BDD0016FA42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C91BD08414C0436F00727134 /* MyLibrary.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = C91BD04A14C0412400727134;
+			remoteInfo = MyLibraryResources;
+		};
 		C91BD08C14C0437000727134 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C91BD08414C0436F00727134 /* MyLibrary.xcodeproj */;
@@ -132,6 +146,8 @@
 			buildRules = (
 			);
 			dependencies = (
+				A7DFD46414D17BDD0016FA42 /* PBXTargetDependency */,
+				A7DFD46214D17BDA0016FA42 /* PBXTargetDependency */,
 			);
 			name = MyLibraryTest;
 			productName = MyLibraryTest;
@@ -208,6 +224,19 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A7DFD46214D17BDA0016FA42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MyLibrary;
+			targetProxy = A7DFD46114D17BDA0016FA42 /* PBXContainerItemProxy */;
+		};
+		A7DFD46414D17BDD0016FA42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MyLibraryResources;
+			targetProxy = A7DFD46314D17BDD0016FA42 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		C91BD07F14C0436200727134 /* Debug */ = {
