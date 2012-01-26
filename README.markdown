@@ -8,7 +8,7 @@ app which links against a library called `MyLibrary` that includes a XIB.
 
 ## License
 
-MJGHTTPRequest uses the 2-clause BSD license. So you should be free to use it pretty much however 
+ios-library-with-resources uses the 2-clause BSD license. So you should be free to use it pretty much however 
 you want. Contact me if you require further information.
 
 Copyright (c) 2012 Matt Galloway. All rights reserved.
